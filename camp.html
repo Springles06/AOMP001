@@ -6,14 +6,50 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Art of Mathematical Problems - Camp Materials</title>
   <link rel="stylesheet" href="style.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      $(".year-link").click(function() {
-        $(this).siblings(".exam-links").toggle();
-      });
-    });
-  </script>
+  <style>
+    /* Mobile styles */
+    @media only screen and (max-width: 600px) {
+      header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      header h1 {
+        font-size: 24px;
+      }
+      header a {
+        font-size: 16px;
+        padding: 8px;
+      }
+      nav {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      nav li {
+        margin: 5px 0;
+      }
+      main {
+        padding: 20px;
+      }
+      main h2 {
+        font-size: 24px;
+      }
+      main h3 {
+        font-size: 18px;
+      }
+      main ul {
+        margin: 10px 0;
+      }
+      footer {
+        padding: 5px;
+      }
+      footer p {
+        font-size: 12px;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
